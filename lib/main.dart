@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rendy_siakad_app/bloc/khs/khs_bloc.dart';
 import 'package:flutter_rendy_siakad_app/bloc/schedule/schedules_bloc.dart';
 import 'package:flutter_rendy_siakad_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_rendy_siakad_app/data/models/response/khs_response_model.dart';
 import 'package:flutter_rendy_siakad_app/pages/auth/auth_page.dart';
 import 'package:flutter_rendy_siakad_app/pages/mahasiswa/mahasiswa_page.dart';
 

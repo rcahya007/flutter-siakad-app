@@ -5,6 +5,7 @@ import 'package:flutter_rendy_siakad_app/common/constants/icons.dart';
 import 'package:flutter_rendy_siakad_app/common/constants/images.dart';
 import 'package:flutter_rendy_siakad_app/common/widgets/buttons.dart';
 import 'package:flutter_rendy_siakad_app/common/widgets/custom_scaffold.dart';
+import 'package:flutter_rendy_siakad_app/pages/mahasiswa/widgets/qrcode_page.dart';
 
 class AbsensiPage extends StatefulWidget {
   const AbsensiPage({super.key});
@@ -140,12 +141,12 @@ class _AbsensiPageState extends State<AbsensiPage> {
           const SizedBox(height: 20.0),
           Button.filled(
             onPressed: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) => const ScanPage(),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const QrCodePage(),
+                ),
+              );
             },
             label: 'SCAN',
             icon: const ImageIcon(

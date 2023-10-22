@@ -14,7 +14,6 @@ class KhsPage extends StatefulWidget {
 class _KhsPageState extends State<KhsPage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     context.read<KhsBloc>().add(const KhsEvent.getKhs());
   }

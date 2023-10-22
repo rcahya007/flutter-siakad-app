@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rendy_siakad_app/bloc/schedule/schedules_bloc.dart';
 import 'package:flutter_rendy_siakad_app/common/constants/images.dart';
 import 'package:flutter_rendy_siakad_app/common/extensions/date_time_ext.dart';
-import 'package:flutter_rendy_siakad_app/common/widgets/custom_scaffold.dart';
 import 'package:flutter_rendy_siakad_app/pages/mahasiswa/models/course_schedule_model.dart';
 import 'package:flutter_rendy_siakad_app/pages/mahasiswa/widgets/course_schedule_tile.dart';
 import 'package:flutter_rendy_siakad_app/pages/mahasiswa/widgets/course_with_image.dart';
@@ -18,7 +17,6 @@ class JadwalMatkulPage extends StatefulWidget {
 class _JadwalMatkulPageState extends State<JadwalMatkulPage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     context.read<SchedulesBloc>().add(const SchedulesEvent.getSchedules());
   }

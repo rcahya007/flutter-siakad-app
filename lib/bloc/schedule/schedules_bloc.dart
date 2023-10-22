@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rendy_siakad_app/data/datasources/schedule_remote_datasource.dart';
 import 'package:flutter_rendy_siakad_app/data/models/response/schedule_response_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
